@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  color: white;
+  font-size: 32px;
+}
+body {
+  background-color: #2d3d50;
+}
+.container {
+  height: 100%;
+}
+.btn:active {
+  background-color: rgb(255, 51, 0) !important;
+  box-shadow: 0px 0px 26px 6px #b84516;
+  transition: all 0.01s;
+  -webkit-transition: all 0.01s;
+  -moz-transition: all 0.01s;
+  -ms-transition: all 0.01s;
+  -o-transition: all 0.01s;
+}
+.title {
+  font-size: 1.8rem;
+  font-weight: bolder;
+}
+.drumKeyboard {
+  width: 100vw;
+}
+
+.drumKeyboard div .btn {
+  width: 75px;
+  padding: 3px;
+}
+.drumKeyboard .row .col-1 {
+  padding: 0;
+}
+
+.backGroundColor {
+  background-color: coral;
+}
